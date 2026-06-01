@@ -1,9 +1,9 @@
 {
   "_comment": "Manifeste de version PDF Editeur (suite Abeille Technologie). 'latest' = derniere version publiee. 'type' = major / minor / patch. 'min_supported' = en dessous, mise a jour forcee. Aligne sur le mecanisme de version de RENOMMEUR.",
-  "latest": "0.5.0",
+  "latest": "0.6.0",
   "released_at": "2026-06-01",
   "type": "minor",
-  "changelog": "Jalon 5 - Integration Windows : IMPRESSION du document (tel qu'edite) vers n'importe quelle imprimante via une boite de dialogue (choix imprimante, plage de pages, copies) ; selectionner 'Microsoft Print to PDF' permet d'imprimer EN PDF. OUVERTURE par double-clic / 'Ouvrir avec' (l'app recoit le fichier au lancement). ASSOCIATION .pdf posee par l'installateur (ProgID, icone, 'Ouvrir avec', visible dans 'Applications par defaut') + bouton 'Definir comme lecteur PDF par defaut' ouvrant les Reglages Windows. Raccourci Ctrl+P.",
+  "changelog": "Imprimante virtuelle 'Abeille PDF' : posee par l'installateur (clone du pilote natif Windows, sans dependance). Depuis n'importe quelle application -> Imprimer -> 'Abeille PDF' -> enregistre un PDF (reouvrable via l'association PDF Editeur). Retiree proprement a la desinstallation. (Rappel 0.5.0 : impression, ouverture par double-clic, association .pdf, verification de mise a jour.)",
   "min_supported": "0.1.0",
-  "download_url": "https://github.com/ltizon/pdf-editeur-public/releases/tag/v0.5.0"
+  "download_url": "https://github.com/ltizon/pdf-editeur-public/releases/tag/v0.6.0"
 }
